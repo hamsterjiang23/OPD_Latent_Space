@@ -1,0 +1,60 @@
+=== 创始论文（OPD 思想源头）===
+A Reduction of Imitation Learning and Structured Prediction to No-Regret Online Learning (DAGGER) - https://arxiv.org/abs/1011.0686
+On-Policy Distillation of Language Models: Learning from Self-Generated Mistakes (GKD) - https://arxiv.org/abs/2306.13649
+MiniLLM: Knowledge Distillation of Large Language Models - https://arxiv.org/abs/2306.08543
+
+=== 旗舰模型技术报告（OPD 工业化的里程碑）===
+Gemma 2 Technical Report (Google) - https://arxiv.org/abs/2408.00118
+Qwen3 Technical Report (Alibaba) - https://arxiv.org/abs/2505.09388
+DeepSeek-R1-0528 (DeepSeek) - https://huggingface.co/deepseek-ai
+MiMo-V2-Flash (Xiaomi) - https://github.com/XiaomiMiMo/MiMo-V2-Flash
+GLM-5 Technical Report (Zhipu) - https://arxiv.org/abs/2512.16173
+Qwen3.5 (Alibaba) - https://huggingface.co/Qwen
+DeepSeek-V4 Technical Report (DeepSeek) - https://arxiv.org/abs/2604.16296
+Qwen3.5-Omni Technical Report (Alibaba) - https://arxiv.org/abs/2604.15804
+
+=== OPD 机制分析与改进（学术论文）===
+Small Models Struggle to Learn from Strong Reasoners - https://arxiv.org/abs/2502.12143
+Data Shifts Hurt CoT: A Theoretical Study - https://arxiv.org/abs/2506.10647
+Merge-of-Thought Distillation - https://arxiv.org/abs/2509.08814
+Entropy-Aware On-Policy Distillation of Language Models - https://arxiv.org/abs/2603.07079
+Rethinking Kullback-Leibler Divergence in Knowledge Distillation for Large Language Models (AKL) - https://arxiv.org/abs/2404.02657
+Reasoning Path Divergence - https://arxiv.org/abs/2510.26122
+Revisiting On-Policy Distillation: Empirical Failure Modes and Simple Fixes - https://arxiv.org/abs/2603.25562
+Rethinking On-Policy Distillation of Large Language Models: Phenomenology, Mechanism, and Recipe - https://arxiv.org/abs/2604.13016
+A Survey of On-Policy Distillation for Large Language Models - https://arxiv.org/abs/2604.00626
+MAD-OPD: Breaking the Ceiling in OPD via Multi-Agent Debate - https://arxiv.org/abs/2605.01347
+Lightning OPD: Efficient Post-Training with Offline On-Policy Distillation - https://arxiv.org/abs/2604.09745
+StableOPD - https://arxiv.org/abs/2604.08527
+SCOPE: Sample-Conditioned On-Policy Distillation - https://arxiv.org/abs/2604.10688
+Learning beyond Teacher: Generalized On-Policy Distillation with Reward Extrapolation (G-OPD / ExOPD) - https://arxiv.org/abs/2602.12125
+
+=== Privileged Information + Self-Distillation 系列 ===
+Privileged Information Distillation for Language Models (π-Distill) - https://arxiv.org/abs/2602.04942
+Self-Distillation Enables Continual Learning - https://arxiv.org/abs/2601.19897
+Self-Distilled Reasoner - https://arxiv.org/abs/2601.18734
+Reinforcement Learning via Self-Distillation - https://arxiv.org/abs/2601.20802
+On-Policy Context Distillation for Language Models - https://arxiv.org/abs/2602.12275
+
+=== Latent Space Reasoning 相关 ===
+Effective Reasoning Chains Reduce Intrinsic Dimensionality (DeepMind) - https://arxiv.org/abs/2602.09276
+Coconut: Training Large Language Models to Reason in a Continuous Latent Space - https://arxiv.org/abs/2412.06769
+CODI: Compressing Chain-of-Thought into Continuous Space via Self-Distillation - https://arxiv.org/abs/2502.21074
+Do Latent-CoT Embeddings Learn to Reason Step-by-Step? - https://arxiv.org/abs/2601.08847
+Chain Of Thought Compression: A Theoretical Analysis - https://arxiv.org/abs/2601.21576
+Implicit Reasoning in Transformers is Reasoning through Shortcuts - https://arxiv.org/abs/2503.07604
+CoLaR: Compressing Long Chain-of-Thought into Continuous Space via Latent Reasoning - https://arxiv.org/abs/2505.16552
+
+=== RL 与一般理论 ===
+Reinforcement Learning and Control as Probabilistic Inference - https://arxiv.org/abs/1805.00909
+Let's Verify Step by Step - https://arxiv.org/abs/2305.20050
+Direct Preference Optimization (DPO) - https://arxiv.org/abs/2305.18290
+A Comedy of Estimators: On KL Regularization in RL Training of LLMs - https://arxiv.org/abs/2512.21852
+RL's Razor: Why Online Reinforcement Learning Forgets Less - https://arxiv.org/abs/2509.04259
+
+=== 博客 / 综述 / 在线资源 ===
+Thinking Machines Lab: On-Policy Distillation (Blog) - https://thinkingmachines.ai/blog/on-policy-distillation/
+知乎：从技术报告看 On-Policy Distillation 的崛起 - https://zhuanlan.zhihu.com/p/2031101471563962191
+Understanding Self-Distillation and Privileged Information Distillation (Blog) - https://emilianopp.github.io/Privileged-Information-Distillation-and-Self-Distillation/
+AwesomeOPD (GitHub) - https://github.com/thinkwee/AwesomeOPD
+Awesome Latent Space Reasoning (GitHub) - https://github.com/YU-deep/Awesome-Latent-Space
